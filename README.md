@@ -1,6 +1,2 @@
 # Ethereum-Solidity-Smart-Contracts
-Ethereum Solidity Smart Contracts
-1) test push from Remix to Github
-2) test pull from Github to Remix
-
-Changes added on Jan 11 2022
+This is a repo with exercises that show coding in Solidity and the Remix Platform. This code will work in either Remix or in VS Code. 
