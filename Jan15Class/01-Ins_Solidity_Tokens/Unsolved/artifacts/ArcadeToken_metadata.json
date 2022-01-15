@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Jan15Class/01-Ins_Solidity_Tokens/Unsolved/ArcadeToken.sol": "ArcadeToken"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Jan15Class/01-Ins_Solidity_Tokens/Unsolved/ArcadeToken.sol": {
+			"keccak256": "0x8ca0619c62fab8757f59208adeca34fa2fb9172d257e803a6028a24cf401a273",
+			"urls": [
+				"bzzr://3b6e6b27ec12c762cf690b5cef7fc955f98bdd30552fd82c5ae0240d9c6e86e3"
+			]
+		}
+	},
+	"version": 1
+}

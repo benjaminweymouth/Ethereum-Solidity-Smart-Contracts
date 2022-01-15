@@ -42,7 +42,7 @@ pragma solidity ^0.5.0;
 contract CustomerAccount {
     address owner;
     bool isNewAccount;
-    uint accountBalance;
+    uint public accountBalance;
     string customerName;
     string customerLastName;
 
@@ -57,4 +57,23 @@ contract CustomerAccount {
         customerName = newCustomerName;
         customerLastName = newCustomerLastName;
     }
+
+    function sendRemittance(uint amount, address payable recipient) public {
+        recipient.transfer(amount);
+        accountBalance = address(this).balance;
+    }
+
+    function deposit() public payable {
+        accountBalance = address(this).balance;
+
+
+    }
+
+    function () external payable {
+
+        //leave empty but we can update balance 
+        accountBalance = address(this).balance;
+        
+    }
+
 }

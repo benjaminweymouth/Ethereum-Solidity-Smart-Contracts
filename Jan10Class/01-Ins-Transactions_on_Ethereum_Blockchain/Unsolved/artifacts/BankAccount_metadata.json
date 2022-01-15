@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Jan10Class/01-Ins-Transactions_on_Ethereum_Blockchain/Unsolved/transactions.sol": "BankAccount"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Jan10Class/01-Ins-Transactions_on_Ethereum_Blockchain/Unsolved/transactions.sol": {
+			"keccak256": "0x4f4785a467191ff66c62920a1d9783b7b4c1cfd6792feb177a19a801d9ce1509",
+			"urls": [
+				"bzz-raw://745566b6fb70383421e19066fd2abddc951ce10ae0b51960984f5974cb957eff",
+				"dweb:/ipfs/QmQTaqeWyBLQBzDfyWKqAdfACyFNau1bg1ivaoWnQ8qz8n"
+			]
+		}
+	},
+	"version": 1
+}

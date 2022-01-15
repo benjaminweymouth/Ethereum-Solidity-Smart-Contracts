@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "exampleIfElse",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Jan10Class/04-Ins_Solidity_Decision_Making/Unsolved/solidity_decision_making.sol": "IfElse"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Jan10Class/04-Ins_Solidity_Decision_Making/Unsolved/solidity_decision_making.sol": {
+			"keccak256": "0x53abfe00d9c63dfbdba6d81304e0d8de1b971649e896ac0d410250afe5eb8f2e",
+			"urls": [
+				"bzz-raw://d519661b2dc7c8511fa658e1fd217bcb5abc573e514993e7711003bd56b3ef65",
+				"dweb:/ipfs/QmdfdSzFMebTxit1yz39rzoFMASRmXwfrmUegan45CwrTb"
+			]
+		}
+	},
+	"version": 1
+}

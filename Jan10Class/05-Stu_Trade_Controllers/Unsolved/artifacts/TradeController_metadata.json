@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "currentPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "buyAnyway",
+						"type": "bool"
+					}
+				],
+				"name": "makeTrade",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Jan10Class/05-Stu_Trade_Controllers/Unsolved/trade_controller.sol": "TradeController"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Jan10Class/05-Stu_Trade_Controllers/Unsolved/trade_controller.sol": {
+			"keccak256": "0xa3ca2ad5f130c95406891e930c86e557a4d1379684e677146a5af7e7ff2812d7",
+			"urls": [
+				"bzz-raw://60d1b3b4c4b6a341808d8d1ba004da6d152a1c9368d7cb4f6b1249a9aa80fcc0",
+				"dweb:/ipfs/QmVGeEMHgJBSir5rxXwgoy1KBR7Z4tdsYU6tGwYErP93Xw"
+			]
+		}
+	},
+	"version": 1
+}

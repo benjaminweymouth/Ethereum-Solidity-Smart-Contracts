@@ -1,3 +1,33 @@
+pragma solidity ^0.5.0;
+
+contract LatestTrade {
+
+  string coin = 'XRP';
+  uint price;
+  bool is_buy_order;
+
+     function updateTrade() public payable {
+      coin = new_coin;
+      price = new_price;
+      is_buy_order = is_buy; 
+
+    }
+
+  
+    function getTrade() view public returns(string, bool, uint) {
+        return (coin, price, is_buy_order);
+    }
+
+    function setTrade(string coin, bool is_buy_order, uint price) public {
+
+      coin = new_coin;
+      price = new_price;
+      is_buy_order = is_buy; 
+    }
+
+
+}
+
 /*
 1. Use the `latest_trade.sol` file to create a contract named `LatestTrade` that contains:
 

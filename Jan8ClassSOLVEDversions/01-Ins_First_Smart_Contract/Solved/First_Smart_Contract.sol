@@ -1,3 +1,10 @@
+pragma solidity ^0.5.0;
+
+contract MessageContract {
+    address myAddress = 0xc3879B456DAA348a16B6524CBC558d2CC984722c;
+   string message = "Send me money!";
+}
+
 /*
 
 1. Navigate to [Remix IDE](https://remix.ethereum.org/).
@@ -25,9 +32,4 @@ Then, create a `variable` using the `message` keyword and set it to `"Send me mo
 
  /*
 
-pragma solidity ^0.5.0;
 
-contract MessageContract {
-    address myAddress = 0xc3879B456DAA348a16B6524CBC558d2CC984722c;
-   string message = "Send me money!";
-}
