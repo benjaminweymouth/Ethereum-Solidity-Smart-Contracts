@@ -4,7 +4,36 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"methods": {}
 		},
@@ -26,9 +55,9 @@
 	},
 	"sources": {
 		"Jan15Class/01-Ins_Solidity_Tokens/Unsolved/ArcadeToken.sol": {
-			"keccak256": "0x8ca0619c62fab8757f59208adeca34fa2fb9172d257e803a6028a24cf401a273",
+			"keccak256": "0xb533a7c806b1749088337fb834beaf7111c7cd953b87962f98d5ef72e0b1120a",
 			"urls": [
-				"bzzr://3b6e6b27ec12c762cf690b5cef7fc955f98bdd30552fd82c5ae0240d9c6e86e3"
+				"bzzr://47ee6f39f78ec0d44c79d2bf070702a19bb78b1358a6d658da50995ead3342ad"
 			]
 		}
 	},
