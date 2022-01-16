@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.0+commit.1d4f565a"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,9 +8,54 @@
 			{
 				"constant": true,
 				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "purchase",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
 				"name": "symbol",
 				"outputs": [
 					{
+						"internalType": "string",
 						"name": "",
 						"type": "string"
 					}
@@ -20,17 +65,23 @@
 				"type": "function"
 			},
 			{
-				"constant": true,
-				"inputs": [],
-				"name": "balance",
-				"outputs": [
+				"constant": false,
+				"inputs": [
 					{
-						"name": "",
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
+				"name": "transfer",
+				"outputs": [],
 				"payable": false,
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +96,7 @@
 		"compilationTarget": {
 			"Jan15Class/01-Ins_Solidity_Tokens/Unsolved/ArcadeToken.sol": "ArcadeToken"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
@@ -55,9 +106,17 @@
 	},
 	"sources": {
 		"Jan15Class/01-Ins_Solidity_Tokens/Unsolved/ArcadeToken.sol": {
-			"keccak256": "0xb533a7c806b1749088337fb834beaf7111c7cd953b87962f98d5ef72e0b1120a",
+			"keccak256": "0x2a2384980697b5e7bbca1a1470bd528bd61580fe9f844e7dfeaafd0d4120a13a",
 			"urls": [
-				"bzzr://47ee6f39f78ec0d44c79d2bf070702a19bb78b1358a6d658da50995ead3342ad"
+				"bzz-raw://908c0c5778b99f36a9e228d67d3a01124061899ece9cab239407d994939c186e",
+				"dweb:/ipfs/Qmb17hKYT2kSq6a2tzGp7Us2RzpVs2WG3wAgQcXM6MVgiX"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076",
+			"urls": [
+				"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f",
+				"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq"
 			]
 		}
 	},
