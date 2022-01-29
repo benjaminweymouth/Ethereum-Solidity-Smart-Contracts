@@ -17,6 +17,9 @@ contract XP_Token is ERC20, ERC20Detailed, ERC20Mintable {
         ERC20Detailed(name, symbol, 18)
         public
     {
-        mint(msg.sender, initial_supply);
+        // constructor can stay empty
     }
 }
+
+
+ 
